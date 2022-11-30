@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 8px;
+  display: flex;
 }
 
 .icon {
@@ -63,4 +65,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.everything-else {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px;
+}
+
+.row-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.exclamation-mark-section {
+  padding: 8px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.row-one {
+  justify-content: space-between;
 }
